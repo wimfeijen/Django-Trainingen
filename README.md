@@ -166,16 +166,28 @@ Recommendations
 
 Likes
 -----
-- File and image handling (django-photologue)
-- User registration (django-registration) and sessions
-- Testing (django-debug-toolbar, nose, werkzeug, gdb, eclipse)
-- Database migrations (south)
+- File and image handling ([django-photologue][photologue])
+- User registration ([django-registration][registration]) and sessions
+- Testing ([django-debug-toolbar][django-debug-toolbar], nose, werkzeug, gdb, eclipse)
+- Database migrations ([south][south])
 - Automated deployments (fabric, zc.buildout)
-- Caching (memcached)
-- Webservices (django-tastypie)
-- Facebook / social integration (django-socialregistration)
-- Pagination (endless-pagination)
-- IDEAL payments (django-mollie) 
+- Caching ([memcached][memcached])
+- Webservices ([django-tastypie][tastypie])
+- Facebook / social integration ([django-socialregistration][social])
+- Pagination ([endless-pagination][pagination])
+- IDEAL payments ([django-mollie][mollie]) 
+- Blog ([zinnia][zinnia])
+
+[photologue]:http://code.google.com/p/django-photologue/
+[registration]:https://bitbucket.org/ubernostrum/django-registration/
+[django-debug-toolbar]:https://github.com/django-debug-toolbar/django-debug-toolbar
+[south]:http://south.aeracode.org/docs/installation.html
+[memcached]:https://docs.djangoproject.com/en/dev/topics/cache/
+[tastypie]:https://github.com/toastdriven/django-tastypie
+[social]:http://pypi.python.org/pypi/django-socialregistration/0.4.5
+[pagination]:http://code.google.com/p/django-endless-pagination/
+[mollie]:https://github.com/peeb/django-mollie-ideal
+[zinnia]:https://github.com/Fantomas42/django-blog-zinnia
 
 Tips
 ----
@@ -190,6 +202,7 @@ About the author
 ----------------
 
 **Wim Feijen**
+
 - [Go2People Websites][go2people]
 - [LinkedIn][linkedin]
 - [Twitter][twitter]
