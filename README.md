@@ -31,7 +31,7 @@ Useful shortcuts
  - 2. a named url
  - 3. a hardcoded url (relative or full)
 
-    # in views.py
+### in views.py
     from django.shortcuts import render
     return render('my_template.html', context)
 
