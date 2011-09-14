@@ -58,10 +58,18 @@ https://github.com/account/ssh
 
 Git
 ---
-- git clone
-- git pull
+
+### Updating the repo
 - git add
-- git push 
+- git status
+- git commit -m 'Description of the change'
+- git push
+
+### Creating a branch
+- git clone
+
+### Update your branch
+- git pull
 
 
 Markdown
