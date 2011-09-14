@@ -33,7 +33,7 @@ Useful shortcuts
 
 ### in views.py
     from django.shortcuts import render
-    return render('my_template.html', context)
+    return render(request, 'my_template.html', context)
 
     from django.shortcuts import redirect
     return redirect('name_of_url')
