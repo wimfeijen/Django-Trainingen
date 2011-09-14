@@ -1,6 +1,23 @@
 Django Trainingen
 =================
 
+Learning Django
+------------
+1. Read the [Django Book][book], it is excellent
+2. Read the [Django docs][docs]
+3. [django-users mailing list][django-users]
+4. [django-developers mailing list][django-developers]
+5. irc: #django
+6. DjangoCons and [Django Meetings][meetings]
+7. [contribute?][contribute]
+
+[book]:http://www.djangobook.com/en/2.0/
+[docs]:https://docs.djangoproject.com/en/1.3/
+[django-users]:http://groups.google.com/group/django-users
+[django-developers]:http://groups.google.com/group/django-developers
+[meetings]:http://wiki.python.org/moin/DjangoMeetingNL
+[contribute]:https://docs.djangoproject.com/en/1.3/#the-django-open-source-project
+
 What’s new in Django 1.3
 ------------------------
 
@@ -21,6 +38,23 @@ What’s new in Django 1.2
 
 Ad 6. in settings.py:
     USE_I10N = True 
+
+Middleware and context processors
+------------------------
+
+1. [Middleware][middleware]
+2. [Context processors][context_processors]
+
+Examples:
+1. [django.contrib.auth.AuthenticationMiddleware][auth-middleware]
+2. [django.contrib.auth.context_processors][auth-processor]
+
+[middleware]:https://docs.djangoproject.com/en/1.3/topics/http/middleware/
+[context_processors]:https://docs.djangoproject.com/en/dev/ref/templates/api/#writing-your-own-context-processors
+
+[auth-middleware]:https://github.com/django/django/blob/master/django/contrib/auth/middleware.py
+[auth-processor]:https://github.com/django/django/blob/master/django/contrib/auth/context_processors.py
+
 
 Github
 ------
@@ -99,7 +133,7 @@ About the author
 [static]:https://docs.djangoproject.com/en/1.3/ref/contrib/staticfiles/
 [csrf]:https://docs.djangoproject.com/en/1.3/ref/contrib/csrf/
 [messages]:https://docs.djangoproject.com/en/1.3/ref/contrib/messages/
-[usernames]:
+[usernames]:https://docs.djangoproject.com/en/dev/releases/1.2/#relaxed-requirements-for-usernames
 [email backends]:https://docs.djangoproject.com/en/dev/topics/email/#topic-email-backends
 [if]:https://docs.djangoproject.com/en/dev/releases/1.2/#smart-if-tag
 [l10n]:https://docs.djangoproject.com/en/dev/topics/i18n/localization/#format-localization
