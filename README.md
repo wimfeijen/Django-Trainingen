@@ -38,7 +38,7 @@ Useful shortcuts
     from django.shortcuts import redirect
     redirect('name')
 
-If objects have public views, always use get_absolute_url
+If objects have public views, always use get_absolute_url()
 [render]:https://docs.djangoproject.com/en/1.3/topics/http/shortcuts/#render
 [redirect]:https://docs.djangoproject.com/en/1.3/topics/http/shortcuts/#redirect
 
