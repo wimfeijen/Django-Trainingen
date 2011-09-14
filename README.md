@@ -18,6 +18,18 @@ Learning Django
 [meetings]:http://wiki.python.org/moin/DjangoMeetingNL
 [contribute]:https://docs.djangoproject.com/en/1.3/#the-django-open-source-project
 
+Recommendations
+---------------
+1. [Django packages][packages]
+2. [Django snippets][snippets]
+3. [Django people][people]
+4. [Github][github]
+
+[snippets]:http://djangosnippets.org/
+[packages]:http://djangopackages.com/
+[people]:http://djangopeople.net/
+[github]:https://github.com
+
 What’s new in Django 1.3
 ------------------------
 
@@ -45,7 +57,7 @@ Middleware and context processors
 1. [Middleware][middleware]
 2. [Context processors][context_processors]
 
-Examples:
+### Examples
 1. [django.contrib.auth.AuthenticationMiddleware][auth-middleware]
 2. [django.contrib.auth.context_processors][auth-processor]
 
