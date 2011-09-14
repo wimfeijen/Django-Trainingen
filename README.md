@@ -24,17 +24,21 @@ Community
 Useful shortcuts
 ----------------
 1. [render][render], since 1.3, usage: 
+
     from django.shortcuts import render
     render('my_template.html', context')
-    # render() is the same as a call to render_to_response() with a context_instance argument that forces the use of a RequestContext.
+
+  - render() is the same as a call to render_to_response() with a context_instance argument that forces the use of a RequestContext.
 
 2. [redirect][redirect], since 1.1, usage:      
+
     from django.shortcuts import redirect
     redirect('name')
-    # redirects to:
-    # 1. an object, with defined get_absolute_url
-    # 2. a named url
-    # 3. a hardcoded url (relative or full)
+
+ - redirects to:
+ - 1. an object, with defined get_absolute_url
+ - 2. a named url
+ - 3. a hardcoded url (relative or full)
 
 3. If objects have public views, always use get_absolute_url
 [render]:https://docs.djangoproject.com/en/1.3/topics/http/shortcuts/#render
@@ -187,7 +191,7 @@ Tips
 About the author
 ----------------
 
-** Wim Feijen **
+**Wim Feijen**
 - [Go2People Websites][go2people]
 - [LinkedIn][linkedin]
 - [Twitter][twitter]
