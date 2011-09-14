@@ -49,6 +49,7 @@ What’s new in Django 1.2
 8. [JavaScript-assisted handling of inline related objects in the admin][inlines]
 
 Ad 6. in settings.py:
+
     USE_I10N = True 
 
 Middleware and context processors
