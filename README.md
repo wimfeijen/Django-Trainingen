@@ -153,6 +153,13 @@ Likes
 - Pagination (endless-pagination)
 - IDEAL payments (django-mollie) 
 
+Tips
+----
+
+- [IDE][ide]
+
+[ide]:http://groups.google.com/group/django-users/browse_thread/thread/6705476b48c146b6/b02b6b5c09a3af16?q=gedit&lnk=ol&
+
 
 About the author
 ----------------
