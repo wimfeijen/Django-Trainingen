@@ -126,6 +126,19 @@ Markdown
 [Syntax][markdown-syntax]
 [markdown-syntax]:http://daringfireball.net/projects/markdown/syntax
 
+Likes
+-----
+- File and image handling (django-photologue)
+- User registration (django-registration) and sessions
+- Testing (django-debug-toolbar, nose, werkzeug, gdb, eclipse)
+- Database migrations (south)
+- Automated deployments (fabric, zc.buildout)
+- Caching (memcached)
+- Webservices (django-tastypie)
+- Facebook / social integration (django-socialregistration)
+- Pagination (endless-pagination)
+- IDEAL payments (django-mollie) 
+
 
 About the author
 ----------------
