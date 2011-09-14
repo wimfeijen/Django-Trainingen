@@ -15,9 +15,9 @@ What’s new in Django 1.2
 3. [Relaxed requirements for usernames][usernames]
 4. [Email backends][email backends]
 5. [“Smart” if tag][if]
-6. Improved localization
-7. readonly_fields in ModelAdmin
-8. JavaScript-assisted handling of inline related objects in the admin
+6. [Improved localization][l10n]
+7. [readonly_fields in ModelAdmin][readonly]
+8. [JavaScript-assisted handling of inline related objects in the admin][inlines]
 
 Ad 6. in settings.py:
     USE_I10N = True 
@@ -85,9 +85,9 @@ About the author
 ----------------
 
 ** Wim Feijen **
-[Go2People Websites][go2people]
-[LinkedIn][linkedin]
-[Twitter][twitter]
+- [Go2People Websites][go2people]
+- [LinkedIn][linkedin]
+- [Twitter][twitter]
 
 [go2people]:http://www.go2people.nl
 [linkedin]:http://www.linkedin.com/profile/view?id=10669566
