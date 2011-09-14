@@ -5,30 +5,21 @@ Learning Django
 ------------
 1. Read the [Django Book][book], it is excellent
 2. Read the [Django docs][docs]
+[book]:http://www.djangobook.com/en/2.0/
+[docs]:https://docs.djangoproject.com/en/1.3/
+
+Community
+---
 3. [django-users mailing list][django-users]
 4. [django-developers mailing list][django-developers]
 5. irc: #django
 6. DjangoCons and [Django Meetings][meetings]
 7. [contribute?][contribute]
 
-[book]:http://www.djangobook.com/en/2.0/
-[docs]:https://docs.djangoproject.com/en/1.3/
 [django-users]:http://groups.google.com/group/django-users
 [django-developers]:http://groups.google.com/group/django-developers
 [meetings]:http://wiki.python.org/moin/DjangoMeetingNL
 [contribute]:https://docs.djangoproject.com/en/1.3/#the-django-open-source-project
-
-Recommendations
----------------
-1. [Django packages][packages]
-2. [Django snippets][snippets]
-3. [Django people][people]
-4. [Github][github]
-
-[snippets]:http://djangosnippets.org/
-[packages]:http://djangopackages.com/
-[people]:http://djangopeople.net/
-[github]:https://github.com
 
 Useful shortcuts
 ----------------
@@ -48,41 +39,6 @@ Useful shortcuts
 3. If objects have public views, always use get_absolute_url
 [render]:https://docs.djangoproject.com/en/1.3/topics/http/shortcuts/#render
 [redirect]:https://docs.djangoproject.com/en/1.3/topics/http/shortcuts/#redirect
-
-What’s new in Django 1.3
-------------------------
-
-1. [Class-based views][class-based-views]
-2. [Logging][logging]
-3. [Extended static files handling][static]
-
-What’s new in Django 1.2
-------------------------
-1. [Improved CSRF protection][csrf]
-2. [Messages framework][messages]
-3. [Relaxed requirements for usernames][usernames]
-4. [Email backends][email backends]
-5. [“Smart” if tag][if]
-6. [Improved localization][l10n]
-7. [readonly_fields in ModelAdmin][readonly]
-8. [JavaScript-assisted handling of inline related objects in the admin][inline]
-
-Ad 6. in settings.py:
-
-    USE_I10N = True 
-
-[class-based-views]:https://docs.djangoproject.com/en/1.3/topics/class-based-views/
-[logging]:https://docs.djangoproject.com/en/1.3/topics/logging/
-[static]:https://docs.djangoproject.com/en/1.3/ref/contrib/staticfiles/
-[csrf]:https://docs.djangoproject.com/en/1.3/ref/contrib/csrf/
-[messages]:https://docs.djangoproject.com/en/1.3/ref/contrib/messages/
-[usernames]:https://docs.djangoproject.com/en/dev/releases/1.2/#relaxed-requirements-for-usernames
-[email backends]:https://docs.djangoproject.com/en/dev/topics/email/#topic-email-backends
-[if]:https://docs.djangoproject.com/en/dev/releases/1.2/#smart-if-tag
-[l10n]:https://docs.djangoproject.com/en/dev/topics/i18n/localization/#format-localization
-[readonly]:https://docs.djangoproject.com/en/dev/releases/1.2/#readonly-fields-in-modeladmin
-[inline]: https://docs.djangoproject.com/en/dev/releases/1.2/#javascript-assisted-handling-of-inline-related-objects-in-the-admin
-
 
 Middleware and context processors
 ------------------------
@@ -158,6 +114,53 @@ Markdown
 
 [Syntax][markdown-syntax]
 [markdown-syntax]:http://daringfireball.net/projects/markdown/syntax
+
+What’s new in Django 1.2
+------------------------
+1. [Improved CSRF protection][csrf]
+2. [Messages framework][messages]
+3. [Relaxed requirements for usernames][usernames]
+4. [Email backends][email backends]
+5. [“Smart” if tag][if]
+6. [Improved localization][l10n]
+7. [readonly_fields in ModelAdmin][readonly]
+8. [JavaScript-assisted handling of inline related objects in the admin][inline]
+
+Ad 6. in settings.py:
+
+    USE_I10N = True 
+
+[csrf]:https://docs.djangoproject.com/en/1.3/ref/contrib/csrf/
+[messages]:https://docs.djangoproject.com/en/1.3/ref/contrib/messages/
+[usernames]:https://docs.djangoproject.com/en/dev/releases/1.2/#relaxed-requirements-for-usernames
+[email backends]:https://docs.djangoproject.com/en/dev/topics/email/#topic-email-backends
+[if]:https://docs.djangoproject.com/en/dev/releases/1.2/#smart-if-tag
+[l10n]:https://docs.djangoproject.com/en/dev/topics/i18n/localization/#format-localization
+[readonly]:https://docs.djangoproject.com/en/dev/releases/1.2/#readonly-fields-in-modeladmin
+[inline]: https://docs.djangoproject.com/en/dev/releases/1.2/#javascript-assisted-handling-of-inline-related-objects-in-the-admin
+
+What’s new in Django 1.3
+------------------------
+
+1. [Class-based views][class-based-views]
+2. [Logging][logging]
+3. [Extended static files handling][static]
+
+[class-based-views]:https://docs.djangoproject.com/en/1.3/topics/class-based-views/
+[logging]:https://docs.djangoproject.com/en/1.3/topics/logging/
+[static]:https://docs.djangoproject.com/en/1.3/ref/contrib/staticfiles/
+
+Recommendations
+---------------
+1. [Django packages][packages]
+2. [Django snippets][snippets]
+3. [Django people][people]
+4. [Github][github]
+
+[snippets]:http://djangosnippets.org/
+[packages]:http://djangopackages.com/
+[people]:http://djangopeople.net/
+[github]:https://github.com
 
 Likes
 -----
