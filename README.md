@@ -170,13 +170,14 @@ Likes
 - User registration ([django-registration][registration]) and sessions
 - Testing ([django-debug-toolbar][django-debug-toolbar], nose, werkzeug, gdb, eclipse)
 - Database migrations ([south][south])
-- Automated deployments (fabric, zc.buildout)
+- Automated deployments ([fabric][fabric], zc.buildout)
 - Caching ([memcached][memcached])
 - Webservices ([django-tastypie][tastypie])
 - Facebook / social integration ([django-socialregistration][social])
 - Pagination ([endless-pagination][pagination])
 - IDEAL payments ([django-mollie][mollie]) 
 - Blog ([zinnia][zinnia])
+- Compress static files ([django-compressor][compressor])
 
 [photologue]:http://code.google.com/p/django-photologue/
 [registration]:https://bitbucket.org/ubernostrum/django-registration/
@@ -188,6 +189,8 @@ Likes
 [pagination]:http://code.google.com/p/django-endless-pagination/
 [mollie]:https://github.com/peeb/django-mollie-ideal
 [zinnia]:https://github.com/Fantomas42/django-blog-zinnia
+[compressor]:https://github.com/jezdez/django_compressor
+[fabric]:http://docs.fabfile.org/en/1.2.2/index.html
 
 Tips
 ----
