@@ -186,7 +186,7 @@ Recommendations
 
 Likes
 -----
-- File and image handling ([django-photologue][photologue])
+- File and image handling ([django-imagekit][imagekit])
 - User registration ([django-registration][registration]) and sessions
 - Testing ([django-debug-toolbar][django-debug-toolbar], nose, werkzeug, gdb, eclipse)
 - Database migrations ([south][south])
@@ -199,7 +199,7 @@ Likes
 - Blog ([zinnia][zinnia])
 - Compress static files ([django-compressor][compressor])
 
-[photologue]:http://code.google.com/p/django-photologue/
+[imagekit]:https://github.com/jdriscoll/django-imagekit
 [registration]:https://bitbucket.org/ubernostrum/django-registration/
 [django-debug-toolbar]:https://github.com/django-debug-toolbar/django-debug-toolbar
 [south]:http://south.aeracode.org/docs/installation.html
