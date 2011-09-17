@@ -186,7 +186,7 @@ Recommendations
 
 Likes
 -----
-- File and image handling ([django-imagekit][imagekit])
+- File and image handling ([django-imagekit][imagekit] or [easy-thumbnails][easy-thumbnails])
 - User registration ([django-registration][registration]) and sessions
 - Testing ([django-debug-toolbar][django-debug-toolbar], nose, werkzeug, gdb, eclipse)
 - Database migrations ([south][south])
@@ -200,6 +200,7 @@ Likes
 - Compress static files ([django-compressor][compressor])
 
 [imagekit]:https://github.com/jdriscoll/django-imagekit
+[easy-thumbnails]:https://github.com/SmileyChris/easy-thumbnails
 [registration]:https://bitbucket.org/ubernostrum/django-registration/
 [django-debug-toolbar]:https://github.com/django-debug-toolbar/django-debug-toolbar
 [south]:http://south.aeracode.org/docs/installation.html
