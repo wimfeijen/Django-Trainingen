@@ -213,6 +213,16 @@ Likes
 [compressor]:https://github.com/jezdez/django_compressor
 [fabric]:http://docs.fabfile.org/en/1.2.2/index.html
 
+Javascript
+----
+- [jQuery][jquery]
+- [Backbone.js][backbone]
+- [Mootools][mootools] (alternatief voor jquery)
+
+[jquery]:http://jquery.com/
+[backbone]:http://documentcloud.github.com/backbone/
+[mootools]:http://mootools.net/
+
 Tips
 ----
 
