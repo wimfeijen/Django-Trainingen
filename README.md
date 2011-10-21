@@ -23,9 +23,9 @@ Community
 
 Useful shortcuts
 ----------------
-1. [render][render], since Django 1.3. 
+1. [render][render], since Django 1.3.
   - render() is the same as a call to render_to_response() with a context_instance argument that forces the use of a RequestContext.
-2. [redirect][redirect], since Django 1.1, usage:      
+2. [redirect][redirect], since Django 1.1, usage:
  - redirects to:
  - 1. an object, with defined get_absolute_url
  - 2. a named url
@@ -94,7 +94,7 @@ Git and github
 ### Set up git
     git config --global user.name "Wim Feijen"
     git config --global user.email wim@go2people.nl
-        
+
 ### Next steps:
     mkdir Django-Trainingen
     cd Django-Trainingen
@@ -107,7 +107,7 @@ Git and github
 
 ### Upload ssh key?
 https://github.com/account/ssh
-      
+
 ### Existing Git Repo?
     cd existing_git_repo
     git remote add origin git@github.com:wimfeijen/Django-Trainingen.git
@@ -150,7 +150,7 @@ What’s new in Django 1.2
 
 Ad 6. in settings.py:
 
-    USE_I10N = True 
+    USE_I10N = True
 
 [csrf]:https://docs.djangoproject.com/en/1.3/ref/contrib/csrf/
 [messages]:https://docs.djangoproject.com/en/1.3/ref/contrib/messages/
@@ -195,7 +195,7 @@ Likes
 - Webservices ([django-tastypie][tastypie])
 - Facebook / social integration ([django-socialregistration][social])
 - Pagination ([endless-pagination][pagination])
-- IDEAL payments ([django-mollie][mollie]) 
+- IDEAL payments ([django-mollie][mollie])
 - Blog ([zinnia][zinnia])
 - Compress static files ([django-compressor][compressor])
 
